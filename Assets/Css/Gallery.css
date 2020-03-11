@@ -1,7 +1,5 @@
 body{
-    background-image: url(https://www.xmple.com/wallpaper/gradient-blue-linear-grey-2880x1800-c2-c0c0c0-1e90ff-a-90-f-14.svg);
-    background-repeat: cover;
-    background-repeat: no-repeat;
+   background-color: lightgoldenrodyellow;
 }
 header{
     width: 40%;
@@ -21,8 +19,6 @@ h3{
 }
 div{
     float: right;
-    margin-left: ;
-    margin-right: auto;
     
 }
 img{
