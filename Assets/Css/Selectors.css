@@ -1,9 +1,7 @@
-h1{
+h1 {
     color: #9b59b6;
-
-
-    
 }
+
 div:nth-of-type(3) {
     background-color: pink;
 }
@@ -12,48 +10,57 @@ div p {
     font-size: 25px;
 }
 
-h2{
+h2 {
     color: orange;
 }
-input[type="text"]{
+
+input[type="text"] {
     border: 3px solid red;
     background-color: grey;
 }
-input{
+
+input {
     border: 3px solid red;
 }
-label{
+
+label {
     text-transform: uppercase;
 }
 
-dm{
+dm {
     font-style: italic;
     color: white;
     font-size: 22px;
 }
+
 div p:nth-of-type(2) {
     border: 5px solid white;
 }
-.cls{
+
+.cls {
     background-color: white;
 }
+
 #this {
     border: 2px solid rgb(2, 2, 68);
 }
+
 #this::first-letter {
     font-size: 4em;
     color: darkgreen;
 }
 
-p{
+p {
     font-size: 16px;
 }
-li{
+
+li {
     color: #13c9fb;
 }
-li{
+
+li {
     display: list-item;
-    
+
 }
 
 
@@ -68,6 +75,7 @@ p {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
 }
+
 body {
     color: #bdc3c7;
 }
