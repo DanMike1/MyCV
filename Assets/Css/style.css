@@ -1,6 +1,6 @@
 /* Element selectors */
 body{
-    background-color: skyblue;
+    background-color: ghostwhite;
     margin: 10px 200px;
 
 
@@ -57,20 +57,30 @@ article{
 
 }
 /* link style.. */
-nav> ul>li{
-    display: inline-block;
-    padding: 10px 30px;
-    font-size: 20px;
-}
-nav> ul > li > a {
+nav{
+    width: 100%;
+    background: cadetblue;
+    text-align: center;
 
+}
+ul{
+    width: 80%;
+    margin: 0;
+    padding: 0;
+
+}
+ul li{
+    list-style: none;
+    display:inline-flex;
+    padding: 20px;
+
+
+}
+ul li:hover{
+    background: blueviolet ;
+}
+ul li a{
+    color: white;
     text-decoration: none;
 }
-img{
-    float: left;
-    border-style: hidden;
-    width: 400px;
-    
-    height: 400px;
-    border-radius: 100%;
-}
+

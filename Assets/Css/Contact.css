@@ -7,6 +7,32 @@ body{
     width: 100%;
     
     
+    
+}
+nav{
+    width: 100%;
+    background: cadetblue;
+
+}
+ul{
+    width: 80%;
+    margin: 0;
+    padding: 0;
+
+}
+ul li{
+    list-style: none;
+    display:inline-flex;
+    padding: 20px;
+
+
+}
+ul li:hover{
+    background: blueviolet ;
+}
+ul li a{
+    color: white;
+    text-decoration: none;
 }
 .info{
     border-bottom: 2px solid black;
