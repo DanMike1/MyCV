@@ -1,3 +1,29 @@
+body{
+    
+}
+.info{
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+    width:80%  ;
+    align-content: center;
+    margin-left: 150px;
+}
+.hobbies{
+    text-align: center;
+    background-color: khaki;
+}
+.hobbies ul li{
+    
+    text-align: start;
+    
+}
+
+.skills{
+    text-align: center;
+    background-color: rgb(163, 233, 157);
+
+}
+
 nav{
     width: 100%;
     background: cadetblue;
@@ -24,3 +50,8 @@ nav ul li a{
     color: white;
     text-decoration: none;
 }
+@media (max-width :1000px){
+    body{
+        background-color: blanchedalmond;
+    }
+} 
