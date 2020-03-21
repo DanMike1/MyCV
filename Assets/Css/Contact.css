@@ -1,27 +1,43 @@
 
 body{
-    float: left;
-    margin:1%;
-    align: center;
+    position: relative;
+    margin:0;
+    text-align: center;
+    padding: 0;
+    width: 100%;
+    
 }
-.A{
+.info{
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+    width:80%  ;
+    align-content: center;
+    margin-left: 150px;
+}
 
 
-}
-.main{
-    
-    
-    
-    
+.title{
+    border-bottom: 2px solid black;
+    width: 80%;
+    margin-left: 150px;
 
 }
-.form{
-    position: absolute;
+
+.pain{
+    position: relative;
+    margin-left: 250px;
     
-    
-    
-    
+
+
+
 }
-footer{
-    margin-top: 14%;
+
+    
+
+.foot{
+   
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    margin: 80px;
+    text-align: center;
 }
